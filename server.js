@@ -28,7 +28,7 @@ io.sockets.on('connection', function(socket){
 
     //send message
     socket.on('send message', function(data){
-        io.sockets.emit('new message', {msg:data});
+        io.sockets.emit('new message', {msg:data, user:socket.username});
     });
 
     //new user
