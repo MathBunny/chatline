@@ -1,0 +1,23 @@
+{
+  "name": "chatline",
+  "version": "1.0.0",
+  "description": "Allows users to chat in real-time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MathBunny/chatline.git"
+  },
+  "author": "Horatiu Lazu",
+  "dependencies": {
+    "socket.io" : "*",
+    "express": "*"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MathBunny/chatline/issues"
+  },
+  "homepage": "https://github.com/MathBunny/chatline#readme"
+}
